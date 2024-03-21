@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="app.js"></script>
+   
+<div class="container">
+    <div class="header"> <h2>User Register Form</h2></div>
+    <form id="form" action="" >
+        <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" >
+            <div id="nameError"></div>
+
+        </div>
+    
+        <div class="form-control">
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" id="surname" >
+            <div id="surnameError"></div>
+        </div>
+        <div class="form-control">
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone" >
+            <div id="phoneError"></div>
+        </div>
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" >
+            <div id="emailError"></div>
+        </div>
+        <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" >
+            <div id="passwordError"></div>
+        </div>
+        <div class="form-control">
+            <label for="repeatpsw">Repeat Password</label>
+            <input type="password" name="repeatpsw" id="repeatpsw" >
+        </div>
+        <button type="submit"> Register </button>
+    </form>
+
+</div>
+</body>
+</html>
